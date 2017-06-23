@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+body {
+	background: #5170ad;
+	background: -moz-radial-gradient(center, ellipse cover, #5170ad 0%, #355493 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%,
+		color-stop(0%, #5170ad), color-stop(100%, #355493));
+	background: -webkit-radial-gradient(center, ellipse cover, #5170ad 0%, #355493 100%);
+	background: -o-radial-gradient(center, ellipse cover, #5170ad 0%, #355493 100%);
+	background: -ms-radial-gradient(center, ellipse cover, #5170ad 0%, #355493 100%);
+	background: radial-gradient(ellipse at center, #5170ad 0%, #355493 100%);
+	text-align: center;
+}
+
+.form-wrapper {
+	margin: 0 auto;
+	width: 250px;
+}
+
+.input_text {
+	width: 150px;
+}
+
+button {
+	width: 100px;
+}
+
+p {
+	color: #FF0000;
+}
+
+a {
+	color: #D9D9D9;
+	font-size: 20px;
+}

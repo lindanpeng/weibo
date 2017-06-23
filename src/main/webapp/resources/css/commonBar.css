@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+.topMenu {
+	background-color: #191970;
+	height: 45px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	opacity: 1;
+	transition: height 0.5s;
+}
+
+.nav1 {
+	margin-left: 60%;
+}
+
+a.topfont {
+	top: 5px;
+	color: white;
+	font-weight: 550;
+}
+
+.topMenu:hover {
+	height: 53px;
+}
+
+.topfont::after {
+	color: darkblue;
+	transform: scale(0);
+	opacity: 0;
+}
+
+.topfont:hover::after {
+	transform: scale(1);
+	opacity: 1;
+}

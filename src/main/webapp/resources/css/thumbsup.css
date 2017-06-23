@@ -1,0 +1,298 @@
+.hideBackgroud {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background: rgba(131, 139, 131, 0.65);
+	display: none;
+}
+
+.bgBody {
+	background: rgba(131, 139, 131, 0.3);
+}
+
+.followContent {
+	text-align: center;
+	width: 58%;
+	min-width: 900px;
+	margin: 0px auto;
+	/*     background-color: red;*/
+}
+
+.bigcon1 {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	min-width: 900px;
+	position: relative;
+	/*float: left;*/
+}
+/*.bigcon2{
+	margin-top: 0px;
+	width: 100%;
+	height: 1870px;
+	background-color: red;
+	min-width: 900px;*/
+/*float: left;*/
+/*}*/
+.leftCon {
+	text-align: left;
+	margin-top: 80px;
+	float: left;
+	width: 20%;
+	min-width: 100px;
+	background-color: #5170ad;
+	/*height: 1870px;*/
+	position: relative;
+	top: -2%;
+}
+
+.rightCon {
+	text-align: left;
+	margin-top: 80px;
+	float: left;
+	width: 40%;
+	min-width: 680px;
+	/*height: 1870px;*/
+	/*min-height: 1870px;*/
+	/*overflow-y: auto;*/
+	/*overflow-x: hidden;*/
+	/*overflow-y: hidden;*/
+	/*background-color: #5170ad;*/
+	/*background: rgb(252,252,252);*/
+	background: rgba(131, 139, 131, 0.3);
+	position: relative;
+	top: -2%;
+}
+
+.userPics { /*change*/
+	height: 60px;
+	width: 60px;
+	float: left;
+	position: relative;
+	top: 1%;
+	border-radius: 50%;
+	left: 0.3em;
+}
+
+.followFont { /*change*/
+	position: relative;
+	left: 4.9em;
+	top: -1em;
+}
+
+.introdution { /*change*/
+	position: relative;
+	left: 4.9em;
+	top: -2em;
+	color: gray;
+}
+
+.setHeight {
+	/*border-top: 1px;*/
+	/*padding: 10px;*/
+	min-width: 680px;
+	/*min-height: 200px;*/
+	margin-top: 10px;
+	height: auto;
+	background-color: white;
+	float: left;
+}
+
+.followCancer { /*change*/
+	left: 70%;
+	position: absolute;
+}
+
+.allFollow { /*change*/
+	position: absolute;
+	left: 82%;
+}
+
+.userName:link {
+	text-align: left;
+	color: #333333;
+	font-weight: 600;
+	font-size: 120%;
+	text-decoration: none;
+}
+
+.userName:visited {
+	text-decoration: none;
+	color: #333333;
+}
+
+.userName:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.Page0 { /*change*/
+	position: relative;
+	left: 35%;
+	top: -1.7em;
+}
+
+.Page1 { /*change*/
+	height: 45px;
+	width: 680px;
+	float: left;
+	top: 1305px;
+	position: relative;
+	top: 1px;
+}
+
+.list-group-item-head {
+	height: 55px;
+	background-color: rgb(252, 252, 252);
+}
+
+.triangle {
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	border-width: 15px;
+	border-style: solid;
+	border-color: transparent transparent grey transparent;
+	position: relative;
+	left: -6%;
+	top: 52%;
+}
+
+.user {
+	float: left;
+	font-size: 20px;
+	font-family: "黑体";
+	font-weight: 900;
+	position: relative;
+	left: 2%;
+	top: 1%;
+}
+
+.agree {
+	float: left;
+	color: rgb(52, 83, 145);
+	position: relative;
+	left: 3%;
+	top: 2.8%;
+	font-size: 17px;
+}
+
+.content {
+	width: 480px;
+	min-width: 480px;
+	min-height: 60px;
+	height: auto;
+	background-color: rgb(230, 230, 230);
+	/*float: left;*/
+	clear: both;
+	position: relative;
+	top: -15px;
+	margin-left: 70px;
+}
+
+.call {
+	/*width: auto;*/
+	color: red;
+	float: left;
+	display: inline;
+	font-size: 16px;
+	margin-left: 3px;
+	margin-right: 2px;
+	/*padding: 10px;*/
+	/*-webkit-box-flex:1;*/
+}
+
+.single {
+	text-align: center;
+	font-size: 18px;
+	position: relative;
+	top: 18px;
+	left: 37px;
+}
+
+.formal {
+	display: inline;
+	line-height: 23px;
+	word-wrap: break-word;
+	/*float: left;*/
+	/*word-break: break-all;
+	display:-webkit-box;
+	-webkit-line-clamp:2;
+	-webkit-box-orient:vertical;
+	overflow: hidden;*/
+	/*-webkit-box-orient: horizontal;*/
+	font-size: 16px;
+}
+
+.data {
+	float: left;
+	position: relative;
+	top: 12%;
+	left: 11%;
+}
+
+.call_back {
+	width: 104%;
+	height: 28px;
+	/*float: left;*/
+	text-align: center;
+	position: relative;
+	top: 15%;
+	left: -2%;
+	border-top-style: groove;
+	border-width: 1px;
+	border-color: rgba(250, 250, 250, 0.4);
+	border-bottom-width: 1px;
+	/*min-height: 60px;*/
+	/*font-size: 18px;*/
+	/*line-height: 59px;*/
+	/*min-height: 47px;*/
+	font-size: 18px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+}
+
+.call_back:hover {
+	cursor: pointer;
+}
+
+.Exclamatory {
+	width: 25px;
+	height: 25px;
+}
+
+#loadall {
+	font-size: 16px;
+	color: #9E9E9E;
+	width: 100px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.forwardTickCloseTick {
+	position: relative;
+	left: 80%;
+}
+
+.commentReplyPart {
+	position: fixed;
+	width: 480px;
+	height: 190px;
+	left: 30%;
+	top: 30%;
+	background-color: white;
+	z-index: 101;
+	display: none;
+	border: gray solid 2px;
+	border-radius: 10%;
+}
+
+.commentPartTextArea {
+	width: 90%;
+	height: 70px;
+	position: relative;
+	left: 5%;
+	top: -1em;
+}

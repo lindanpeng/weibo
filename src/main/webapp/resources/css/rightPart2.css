@@ -1,0 +1,78 @@
+@CHARSET "UTF-8";
+
+.rightPart {
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	text-align: left;
+	background: #5170ad;
+	width: 315px;
+	min-width: 260px;
+	margin-top: 70px;
+	z-index: 98;
+}
+
+.loginInto {
+	width: 100%;
+	height: 30%;
+	margin: 2em auto;
+}
+
+.UserLoginImg {
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin-left: 0.8em;
+	margin-top: 20px;
+}
+
+.UserLoginImg1 {
+	width: 32px;
+	float: left;
+	margin-left: 0.8em;
+}
+
+.SetUserLoginImg {
+	width: 32px;
+	height: 32px;
+	margin-top: 5px;
+}
+
+.UserLoginPassword {
+	position: relative;
+	top: 5px;
+}
+
+.enterUserMessage {
+	float: left;
+}
+
+.setButtonCss {
+	position: relative;
+	top: 2em;
+}
+
+.setWidth {
+	width: 50px;
+}
+
+.enterCode {
+	margin-top: 10px;
+	float: left;
+}
+
+.enterCodeImg {
+	display: block;
+	float: left;
+	margin-left: 5px;
+	margin-top: 10px;
+	height: 34px;
+	width: 80px;
+}
+
+.errorC {
+	color: red;
+	display: inline-block;
+	margin-left: 15px;
+	margin-bottom: 1px;
+}

@@ -1,0 +1,612 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #FFF0F5;
+}
+
+.hideBackgroud {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background: rgba(131, 139, 131, 0.65);
+	display: none;
+}
+
+.forwardPart {
+	position: fixed;
+	width: 480px;
+	height: 300px;
+	left: 30%;
+	top: 30%;
+	background-color: white;
+	z-index: 101;
+	display: none;
+	border: gray solid 2px;
+	border-radius: 10%;
+}
+
+.LittleTitleFont {
+	font-weight: bold;
+	position: relative;
+	left: 5%;
+	top: 6%;
+}
+
+.forwardPartTextArea {
+	width: 90%;
+	height: 70px;
+	position: relative;
+	left: 5%;
+	top: -1em;
+}
+
+.viewWhatYouForward {
+	width: 90%;
+	height: 100px;
+	position: relative;
+	top: -10px;
+	left: 5%;
+}
+
+.forwardTickCloseTick {
+	position: relative;
+	left: 80%;
+}
+
+.commentReplyPart {
+	position: fixed;
+	width: 480px;
+	height: 190px;
+	left: 30%;
+	top: 30%;
+	background-color: white;
+	z-index: 101;
+	display: none;
+	border: gray solid 2px;
+	border-radius: 10%;
+}
+
+.commentPartTextArea {
+	width: 90%;
+	height: 70px;
+	position: relative;
+	left: 5%;
+	top: -1em;
+}
+/*add new*/
+.chatPart {
+	border-radius: 50%;
+	position: fixed;
+	z-index: 101;
+	left: 50%;
+	top: 50%;
+	margin-top: -125px;
+	margin-left: -285px;
+	width: 500px;
+	height: 250px;
+	display: none;
+}
+
+.chatTB {
+	color: white;
+	width: 500px;
+	background-color: #5170ad;
+	padding-left: 15px;
+	padding-top: 0.1px;
+	padding-bottom: 0.1px;
+}
+
+.closeChat {
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 450px;
+	width: 20px;
+	height: 20px;
+}
+
+.chatCB {
+	background-color: white;
+	height: 210.1px;
+	width: 500px;
+}
+
+.userTitle {
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 10%;
+}
+
+.textareaB {
+	margin-top: 10px;
+	margin-left: 10%;
+}
+
+.chatPartTextTitle {
+	position: relative;
+	top: -88px;
+}
+
+.chatPartTextArea {
+	width: 340px;
+	height: 100px;
+	position: relative;
+	border-radius: 2%;
+}
+
+.marginSet1 {
+	margin-left: 318px;
+	display: inline-block;
+}
+
+.marginSet2 {
+	margin-left: 10px;
+	display: inline-block;
+}
+/*end*/
+.ShowBigImgPart {
+	position: fixed;
+	display: none;
+	z-index: 101;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.ShowBigImg {
+	max-width: 450px;
+	max-height: 350px;
+	margin-top: 13%;
+}
+
+.forwardTickCloseTick1 {
+	margin-left: 45%;
+}
+
+.bgcontainer {
+	text-align: center;
+	background: #FFF0F5;
+	min-width: 1500px;
+	width: 100%;
+}
+
+/*此部分改为右边下部分菜单栏*/
+.radiu {
+	border-radius: 8px;
+}
+
+.leftFirst {
+	background-color: #5170ad;
+	height: 40px;
+	width: inherit;
+}
+
+.leftSecond {
+	background-color: #5170ad;
+	height: 40px;
+	width: inherit;
+}
+
+.leftThird {
+	margin-top: 10px;
+	height: 40px;
+	width: inherit;
+	background-color: #5170ad;
+}
+
+.leftMiddle {
+	height: 40px;
+	width: inherit;
+	background-color: #5170ad;
+}
+
+/*中间移动部分与底部对齐方式只要满足底部的top与中间部分的高度加中间的top加20*/
+.postWeibo {
+	background-color: white;
+	margin-bottom: 10px;
+}
+
+.postWeiboArea {
+	margin-top: 1.5em;
+	width: 90%;
+	height: 80px;
+}
+
+.postButtom {
+	width: 35px;
+	height: 20px;
+}
+
+.postButtomLeftImg {
+	position: relative;
+	left: 10%;
+	float: left;
+}
+
+.PostWBPic {
+	width: 1.2em;
+	height: 1.2em;
+}
+
+.postButtomOutside {
+	text-align: center;
+}
+
+.postButtomBox {
+	background-color: #5170ad;
+	width: 50px;
+	left: 77%;
+	position: relative;
+	float: left;
+}
+
+.bottomWeiboWholePart {
+	height: 35px;
+}
+
+.PostWBPicBox {
+	background-color: #F7F7F7;
+	border: #DBF4FD groove 2.5px;
+	height: 100px;
+}
+
+.PostWBPicList {
+	list-style-type: none;
+	height: 100px;
+	padding: 3px;
+	text-align: left;
+}
+
+.PostWBPicDetailL {
+	float: left;
+	width: 90px; /*55px */
+	height: 90px;
+	border: #5976B0 solid 1.5px;
+	margin-left: 10px;
+}
+
+.littleDetele {
+	text-align: center;
+	position: absolute;
+	width: 17px;
+	font-size: 12px;
+	margin-left: -8.5px;
+	margin-top: -8.5px;
+	border-radius: 50%;
+	font-weight: bold;
+	color: white;
+	background-color: red;
+}
+
+/*when the number of imgs  more than 4*/
+.PostWBPicBox1 {
+	background-color: #F7F7F7;
+	border: #DBF4FD groove 2.5px;
+	height: 70px;
+}
+
+.PostWBPicList1 {
+	list-style-type: none;
+	height: 70px;
+	padding: 3px;
+	text-align: left;
+}
+
+.PostWBPicDetailL1 {
+	float: left;
+	width: 45px; /*55px */
+	height: 45px;
+	border: #5976B0 solid 1.5px;
+	margin-left: 10px;
+}
+
+.content {
+	width: 100%;
+}
+
+.content1 {
+	position: relative;
+	width: 100%;
+	padding: 30px;
+	background-color: white;
+	padding-bottom: 0px;
+}
+
+.PageTPart {
+	text-align: center;
+	margin-top: 1px;
+	width: 633px;
+	height: 60px;
+	background-color: #F7F7F7;
+	border-right: #DEE3E3 solid 0.5px;
+}
+
+.UserimgBox {
+	position: relative;
+	height: 50px;
+	width: 50px;
+	float: left;
+	border-radius: 50%;
+}
+
+.WeiboPersonal {
+	position: relative;
+	text-align: left;
+	left: 5px;
+	float: left;
+	padding-right: 55px;
+}
+
+.textbox {
+	height: 50%;
+	position: relative;
+	margin-top: 3.8em;
+	height: auto;
+	text-align: left;
+	width: 80%;
+	word-wrap: break-word;
+	left: 55px;
+}
+
+.userName:link {
+	text-align: left;
+	color: #333333;
+	font-weight: 600;
+	font-size: 120%;
+	text-decoration: none;
+}
+
+.userName:visited {
+	text-decoration: none;
+	color: #333333;
+}
+
+.userName:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.detele_l {
+	position: absolute;
+	left: 90%;
+}
+
+.detele_Font {
+	color: #BBBBBB;
+}
+
+.detele_Font:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.imgWholeBox {
+	text-align: left;
+	width: auto;
+	margin-left: 55px;
+	max-width: 500px;
+}
+
+.imgWholeBox1 {
+	text-align: left;
+	width: auto;
+	margin-left: 55px;
+	max-width: 400px;
+}
+
+.imgWeiboBoxPicsTop {
+	height: 100px;
+	width: 100px;
+	margin-top: 5px;
+}
+
+.bottomWeibo {
+	margin-left: -30px;
+	background: rgb(247, 247, 247);
+	width: 635px;
+	height: 21px;
+	margin-top: 10px;
+	border-top: #E3E3E3 solid 0.5px;
+}
+
+.bottomWeibo1 {
+	width: 158.75px;
+	border-right: #E3E3E3 solid 2px;
+	float: left;
+}
+
+.bottomWeiboNum {
+	margin-left: 4px;
+	color: #707070;
+	display: inline-block;
+	position: relative;
+	top: 1px;
+}
+
+.aStyle {
+	text-decoration: none;
+}
+
+.aStyle:hover {
+	text-decoration: none;
+}
+
+.bottomWeibo2 {
+	width: 158.75px;
+	border-right: #E3E3E3 solid 2px;
+	float: left;
+}
+
+.bottomWeibo3 {
+	width: 158.75px;
+	border-right: #E3E3E3 solid 2px;
+	float: left;
+}
+
+.bottomWeibo4 {
+	width: 158.75px;
+	float: left;
+}
+
+.Comment {
+	width: 100%;
+	background-color: #F7F7F7;
+	padding-right: auto;
+	/*	display: none;*/
+}
+
+.Com_Box {
+	width: 100%;
+	text-align: center;
+	padding: 0.8em 2em;
+	padding-bottom: 5px;
+}
+
+.Com_width {
+	width: 100%;
+}
+
+.Com_Button {
+	margin-left: 80%;
+	margin-top: 0.1em;
+}
+
+.CommentList {
+	list-style-type: none;
+	padding: 0;
+	border: #DEE3E3 solid 0.5px;
+}
+
+.CommentLineOfList {
+	border: #DEE3E3 solid 0.5px;
+	width: 100%;
+	padding: 0.5em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+.Com_Time {
+	color: gray;
+}
+
+.CenterMandRP {
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.CommentButtom {
+	text-align: center;
+	color: gray;
+}
+
+.CommentButtomA {
+	color: #AAAAAA;
+}
+
+.middlePart {
+	float: left;
+	margin-top: 70px;
+	width: 635px;
+	text-align: center;
+	text-decoration-color: yellow;
+}
+
+.rightPart {
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	text-align: left;
+	background: #5170ad;
+	width: 300px;
+	margin-top: 70px;
+	z-index: 98;
+	word-wrap:
+}
+
+.loginFollowFont {
+	margin-left: 1px;
+	color: white;
+}
+
+.loginFollowFont1 {
+	color: yellow;
+	margin-left: 5px;
+}
+
+.loginUserName {
+	position: relative;
+	top: 0.7em;
+	color: white;
+}
+
+.myMessage {
+	text-align: center;
+	height: 150px;
+}
+
+.myMessageImg {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: relative;
+	top: 15px;
+}
+
+.loginInto {
+	width: 100%;
+	height: 30%;
+	margin-top: 10%;
+	margin-left: 3%;
+}
+
+.loginIntoId {
+	margin-left: 1%;
+	width: inherit;
+}
+
+.bottomPart {
+	background: rgba(131, 139, 131, 0.4);
+	height: 70px;
+	margin: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	white-space: nowrap;
+	clear: both;
+	position: relative;
+	top: 30px;
+}
+
+a.weixin {
+	position: relative;
+}
+
+.weixin::after {
+	content: url(../img/516789078434265965.jpg);
+	position: absolute;
+	right: 50px;
+	top: -128px;
+	z-index: 99;
+	width: 60px;
+	height: 60px;
+	border: 5px solid #0095ba;
+	border-radius: 4px;
+	transform-origin: top right;
+	transform: scale(0);
+	opacity: 0;
+	transition: all 0;
+}
+
+.weixin:hover::after {
+	transform: scale(1);
+	opacity: 1;
+	z-index: 99;
+}
+
+.atPeople {
+	color: #FF6347;
+	cursor: pointer;
+}

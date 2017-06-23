@@ -1,0 +1,220 @@
+@CHARSET "UTF-8";
+
+.bgBody {
+	background-color: #FFF0F5;
+}
+
+.contentPart {
+	margin: 0 auto;
+	width: 935px;
+	text-align: center;
+}
+
+.middlePart {
+	width: 635px;
+	float: left;
+	margin: 0 auto;
+}
+
+.userList {
+	list-style: none;
+	width: 100%;
+	padding: 0;
+	text-align: left;
+	background-color: white;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.myFirstLine {
+	width: 100%;
+	font-size: 20px;
+	text-align: left;
+	height: 30px;
+	color: gray;
+	padding-left: 30px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ABB9D6),
+		to(#FFFFFF));
+}
+
+.styleUse1 {
+	height: 400px;
+	width: 100%;
+	font-size: 20px;
+	color: #515151;
+	border-bottom: #DDDDDD solid 1px;
+}
+
+.style1Use {
+	position: relative;
+	top: 50%;
+	margin-top: -100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px
+}
+
+.cantFindImg {
+	height: 100px;
+	width: 100px;
+}
+
+.styleUse3 {
+	text-align: center;
+	height: 70px;
+	width: 100%;
+	padding: 0;
+	background-color: white;
+	border-bottom: #666765 solid 1px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.serchingChosen {
+	display: inline-block;
+	position: relative;
+	margin-top: 15px;
+	left: -190px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 10px;
+	border-right: #C5C4C4 solid 1px;
+}
+
+.serchingChosenFont {
+	color: black;
+	font-weight: bold;
+}
+
+.serchingChosenFont1 {
+	color: white;
+}
+
+.serchingChosen1 {
+	display: inline-block;
+	position: relative;
+	margin-top: 15px;
+	left: -190px;
+	color: white;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.serchingChosen1:hover {
+	color: black;
+}
+
+.serchingPart {
+	margin-top: 80px;
+	width: 933px;
+	height: 100px;
+	background: -webkit-gradient(linear, 0% 45%, 0% 100%, from(#5170ad),
+		to(#ABB9D6));
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.serchingBox {
+	position: relative;
+	left: 50%;
+	margin-top: 5px;
+	margin-left: -300px;
+	width: 600px;
+}
+
+.rightPart1 {
+	position: relative;
+	float: left;
+	width: 298px;
+	height: 30px;
+	margin-top: 180px;
+	background-color: white;
+}
+
+.rightPart2 {
+	width: 298px;
+	height: 200px;
+	float: left;
+	background-color: white;
+	border-left: #E3E3E3 solid 2px;
+	border-bottom-right-radius: 5px;
+}
+
+.serchingHistory {
+	text-align: left;
+}
+
+.clearSerchingHis {
+	list-style-type: none;
+}
+
+.userPics { /*change*/
+	height: 50px;
+	width: 50px;
+	float: left;
+	position: relative;
+	top: 1em;
+	border-radius: 50%;
+	left: 0.3em;
+}
+
+.followFont { /*change*/
+	position: relative;
+	left: 4.9em;
+	top: -1em;
+}
+
+.introdution { /*change*/
+	position: relative;
+	left: 4.9em;
+	top: -2em;
+	color: gray;
+}
+
+.list-group-item {
+	border: 0px;
+}
+
+.setHeight {
+	height: 120px;
+	border-bottom: #666765 solid 1px;
+}
+
+.followCancer { /*change*/
+	left: 70%;
+	position: absolute;
+}
+
+.allFollow { /*change*/
+	position: absolute;
+	left: 84%;
+	margin-top: -3px;
+}
+
+.userName:link {
+	text-align: left;
+	color: #333333;
+	font-weight: 600;
+	font-size: 120%;
+	text-decoration: none;
+}
+
+.userName:visited {
+	text-decoration: none;
+	color: #333333;
+}
+
+.userName:hover {
+	color: red;
+	text-decoration: none;
+}
+
+#loadall {
+	background-color: white;
+	text-align: center;
+	font-size: 16px;
+	color: #9E9E9E;
+	height: 50px;
+	line-height: 50px;
+}

@@ -1,0 +1,321 @@
+.hide1 {
+	background-color: #FFF0F5;
+	position: fixed;
+	top: 45px;
+	height: 25px;
+	width: 100%;
+	z-index: 95;
+}
+
+.hideBackgroud {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background: rgba(131, 139, 131, 0.65);
+	display: none;
+}
+
+.ShowBigImgPart {
+	position: fixed;
+	display: none;
+	z-index: 101;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.forwardTickCloseTick1 {
+	margin-left: 45%;
+}
+
+.ShowBigImg {
+	max-width: 450px;
+	max-height: 350px;
+	margin-top: 13%;
+}
+
+.bgcontainer {
+	text-align: center;
+	background: #FFF0F5;
+	min-width: 1500px;
+	width: 100%;
+}
+
+.chinaImg {
+	opacity: 0.2;
+	position: relative;
+	height: 50%;
+	width: auto;
+	margin-left: 10%;
+}
+
+.chinaImgL {
+	opacity: 0.2;
+	position: absolute;
+	height: 220px;
+	width: auto;
+	margin-top: -30px;
+}
+
+/*中间移动部分与底部对齐方式只要满足底部的top与中间部分的高度加中间的top加20*/
+.middlePart {
+	float: left;
+	margin-top: 70px;
+	background: rgba(131, 139, 131, 0.3);
+	width: 635px;
+	text-align: center;
+	text-decoration-color: yellow;
+}
+
+.content {
+	width: 100%;
+}
+
+.content1 {
+	position: relative;
+	width: 100%;
+	padding: 30px;
+	background-color: white;
+	padding-bottom: 0px;
+}
+
+.content2 {
+	position: relative;
+	width: 100%;
+	padding: 30px;
+	background-color: white;
+	padding-bottom: 0px;
+	margin-top: 2%;
+}
+
+.PageTPart {
+	text-align: center;
+	margin-top: 1px;
+	width: 635px;
+	height: 60px;
+	background-color: white;
+}
+
+.UserimgBox {
+	position: relative;
+	height: 50px;
+	width: 50px;
+	float: left;
+	border-radius: 50%;
+}
+
+.WeiboPersonal {
+	position: relative;
+	text-align: left;
+	left: 5px;
+	float: left;
+	padding-right: 55px;
+}
+
+.textbox {
+	height: 50%;
+	position: relative;
+	margin-top: 3.8em;
+	height: auto;
+	text-align: left;
+	width: 80%;
+	word-wrap: break-word;
+	left: 55px;
+}
+
+.userName:link {
+	text-align: left;
+	color: #333333;
+	font-weight: 600;
+	font-size: 120%;
+	text-decoration: none;
+}
+
+.userName:visited {
+	text-decoration: none;
+	color: #333333;
+}
+
+.userName:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.imgWholeBox {
+	text-align: left;
+	width: auto;
+	margin-left: 55px;
+	max-width: 500px;
+}
+
+.imgWholeBox1 {
+	text-align: left;
+	width: auto;
+	margin-left: 55px;
+	max-width: 400px;
+}
+
+.imgWeiboBoxPicsTop {
+	height: 100px;
+	width: 100px;
+	margin-top: 5px;
+}
+
+.bottomWeibo {
+	margin-left: -30px;
+	background: rgb(247, 247, 247);
+	width: 635px;
+	height: 21px;
+	margin-top: 10px;
+	border-top: #E3E3E3 solid 0.5px;
+}
+
+.bottomWeibo1 {
+	width: 158.75px;
+	border-right: #E3E3E3 solid 2px;
+	float: left;
+}
+
+.bottomWeiboNum {
+	margin-left: 4px;
+	color: #707070;
+	display: inline-block;
+	position: relative;
+	top: 1px;
+}
+
+.aStyle {
+	text-decoration: none;
+}
+
+.aStyle:hover {
+	text-decoration: none;
+}
+
+.bottomWeibo2 {
+	width: 158.75px;
+	border-right: #E3E3E3 solid 2px;
+	float: left;
+}
+
+.bottomWeibo3 {
+	width: 158.75px;
+	border-right: #E3E3E3 solid 2px;
+	float: left;
+}
+
+.bottomWeibo4 {
+	width: 158.75px;
+	float: left;
+}
+
+.Comment {
+	width: 100%;
+	max-height: 500px;
+	background-color: #F7F7F7;
+	padding-right: auto;
+	display: none;
+}
+
+.Com_Box {
+	width: 100%;
+	text-align: center;
+	padding: 0.8em 2em;
+	padding-bottom: 5px;
+}
+
+.Com_width {
+	width: 100%;
+}
+
+.Com_Button {
+	margin-left: 80%;
+	margin-top: 0.1em;
+}
+
+.CommentList {
+	list-style-type: none;
+	padding: 0;
+	border: #DEE3E3 solid 0.5px;
+}
+
+.CommentLineOfList {
+	border: #DEE3E3 solid 0.5px;
+	width: 100%;
+	padding: 0.5em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+.Com_Time {
+	color: gray;
+}
+
+.CenterMandRP {
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.CommentButtom {
+	text-align: center;
+	color: gray;
+}
+
+.CommentButtomA {
+	color: #AAAAAA;
+}
+
+.bottomPart {
+	background: rgba(131, 139, 131, 0.4);
+	height: 70px;
+	margin: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	white-space: nowrap;
+	clear: both;
+	position: relative;
+	top: 30px;
+}
+
+a.weixin {
+	position: relative;
+}
+
+.weixin::after {
+	content: url(../img/516789078434265965.jpg);
+	position: absolute;
+	right: 50px;
+	top: -128px;
+	z-index: 99;
+	width: 60px;
+	height: 60px;
+	border: 5px solid #0095ba;
+	border-radius: 4px;
+	transform-origin: top right;
+	transform: scale(0);
+	opacity: 0;
+	transition: all 0;
+}
+
+.weixin:hover::after {
+	transform: scale(1);
+	opacity: 1;
+	z-index: 99;
+}
+
+#loadall {
+	font-size: 16px;
+	color: #9E9E9E;
+	height: 50px;
+	line-height: 50px;
+}
+
+.atPeople {
+	color: #FF6347;
+	cursor: pointer;
+}

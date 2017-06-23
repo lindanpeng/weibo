@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+       http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+       http://www.springframework.org/schema/aop 
+       http://www.springframework.org/schema/aop/spring-aop-4.1.xsd
+       http://www.springframework.org/schema/tx 
+       http://www.springframework.org/schema/tx/spring-tx-4.1.xsd
+       http://www.springframework.org/schema/mvc 
+       http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd
+       http://www.springframework.org/schema/context 
+       http://www.springframework.org/schema/context/spring-context-4.1.xsd
+       ">
+	<!-- 采用注解的方式装配bean -->
+	<context:annotation-config />
+	<!--启动Spring MVC注解 -->
+	<!-- 最后的配置如果没有<mvc:annotation-driven/>，那么所有的Controller可能就没有解析，所有当有请求时候都没有匹配的处理请求类， 
+		就都去<mvc:default-servlet-handler/>即default servlet处理了。添加上<mvc:annotation-driven/>后，相应的do请求被Controller处理， 
+		而静态资源因为没有相应的Controller就会被default servlet处理。总之没有相应的Controller就会被default servlet处理就ok了。 -->
+	<mvc:annotation-driven />
+	<!-- 采用组件扫描方式注册bean -->
+	<context:component-scan base-package="com.alphaking.controller" />
+	<!-- 对模型controller到视图view 名称的解析，在请求时模型视图名称添加前后缀 -->
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+		p:prefix="/jsp/" p:suffix=".jsp" />
+	<!-- 配置文件上传 -->
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!-- 默认编码 -->
+		<property name="defaultEncoding" value="utf-8" />
+		<!-- 文件大小最大值 -->
+		<property name="maxUploadSize" value="10485760000" />
+		<!-- 内存中的最大值 -->
+		<property name="maxInMemorySize" value="40960" />
+	</bean>
+	<mvc:resources mapping="/resources/**" location="/resources/" />
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/personal/**" />
+			<bean class="com.alphaking.interceptor.LoginInterceptor" />
+		</mvc:interceptor>
+	</mvc:interceptors>
+</beans>

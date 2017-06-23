@@ -1,0 +1,101 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #FFF0F5;
+}
+
+.container {
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+}
+
+.head {
+	position: relative;
+	background-color: #5170ad;
+	width: 950px;
+	height: 300px;
+}
+
+.content {
+	margin-top: 15px;
+	postionL: relative;
+	background-color: #FFFFFF;
+	width: 950px;
+	height: 600px;
+}
+
+.portrait_name {
+	position: relative;
+	top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+}
+
+.portrait {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+}
+
+.name {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.profile_data {
+	position: absolute;
+	background-color: #FFFFFF;
+	width: 950px;
+	bottom: 0px;
+	font-size: 20px;
+	overflow: hidden;
+}
+/* .profile_data ul{
+	margin-left:20px;
+} */
+.nickname {
+	font-size: 25px;
+}
+
+.content table {
+	top: 20px;
+	text-align: right;
+	position: relative;
+	border-collapse: separate;
+	border-spacing: 20px;
+	width: 600px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+.table_wrapper {
+	position: relative;
+	top: 20px;
+	border-style: solid;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	border-width: 1px 0px 0px 0px;
+	border-color: gray;
+}
+
+.information {
+	text-align: left;
+}
+
+#content_title {
+	position: relative;
+	top: 20px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 25px;
+}
+
+.label_tip {
+	color: #668B8B;
+}

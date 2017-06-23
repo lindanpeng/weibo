@@ -1,0 +1,446 @@
+@CHARSET "UTF-8";
+
+.bgBody {
+	background: rgba(131, 139, 131, 0.3);
+}
+
+.contentPart {
+	margin: 0 auto;
+	width: 935px;
+	text-align: center;
+}
+
+.middlePart {
+	width: 635px;
+	float: left;
+	margin: 0 auto;
+}
+
+.userList {
+	list-style: none;
+	width: 100%;
+	padding: 0;
+	background-color: white;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.myFirstLine {
+	width: 100%;
+	font-size: 20px;
+	text-align: left;
+	height: 30px;
+	color: gray;
+	padding-left: 30px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ABB9D6),
+		to(#FFFFFF));
+}
+
+.styleUse1 {
+	height: 400px;
+	width: 100%;
+	font-size: 20px;
+	color: #515151;
+	border-bottom: #666765 solid 1px;
+}
+
+.style1Use {
+	position: relative;
+	top: 50%;
+	margin-top: -100px;
+}
+
+.cantFindImg {
+	height: 100px;
+	width: 100px;
+}
+
+.imgB {
+	height: 16px;
+	width: 16px;
+}
+
+.numB {
+	color: gray;
+	height: 17px;
+	width: 17px;
+	font-size: 15px;
+	position: relative;
+	top: 1.2px;
+}
+
+.picBox {
+	max-width: 500px;
+	text-align: left;
+	margin-left: 55px;
+	min-width: 110px;
+}
+
+.picDetil {
+	height: 100px;
+	width: 100px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+
+.picDetil1 {
+	height: 100px;
+	width: 100px;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+.styleUse3 {
+	height: 70px;
+	width: 100%;
+	padding: 0;
+	background-color: white;
+	border-bottom: #666765 solid 1px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.serchingChosen {
+	display: inline-block;
+	position: relative;
+	margin-top: 15px;
+	left: -190px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 10px;
+	border-right: #C5C4C4 solid 1px;
+}
+
+.serchingChosenFont {
+	color: black;
+	font-weight: bold;
+}
+
+.serchingChosenFont1 {
+	color: white;
+}
+
+.serchingChosen1 {
+	display: inline-block;
+	position: relative;
+	margin-top: 15px;
+	left: -190px;
+	color: white;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.serchingChosen1:hover {
+	color: black;
+}
+
+.serchingPart {
+	margin-top: 80px;
+	width: 933px;
+	height: 100px;
+	background: -webkit-gradient(linear, 0% 45%, 0% 100%, from(#5170ad),
+		to(#ABB9D6));
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.serchingBox {
+	position: relative;
+	left: 50%;
+	margin-top: 5px;
+	margin-left: -300px;
+	width: 600px;
+}
+
+.Comment {
+	width: 100%;
+	max-height: 500px;
+	padding-top: 0;
+	background-color: #F7F7F7;
+	padding-right: auto;
+	display: none;
+}
+
+.Com_Box {
+	width: 100%;
+	text-align: center;
+	padding: 0.8em 2em;
+	padding-bottom: 5px;
+}
+
+.Com_width {
+	width: 100%;
+}
+
+.Com_Button {
+	margin-left: 80%;
+	margin-top: 0.1em;
+}
+
+.CommentList {
+	list-style-type: none;
+	padding: 0;
+	border: #DEE3E3 solid 0.5px;
+}
+
+.CommentLineOfList {
+	border: #DEE3E3 solid 0.5px;
+	width: 100%;
+	padding: 0.5em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+.Com_Time {
+	color: gray;
+}
+
+.CenterMandRP {
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.CommentButtom {
+	text-align: center;
+	color: gray;
+}
+
+.CommentButtomA {
+	color: #AAAAAA;
+}
+
+.content1 {
+	position: relative;
+	width: 100%;
+	padding: 30px;
+	background-color: white;
+	margin-top: 10px;
+	padding-bottom: 0px;
+}
+
+.UserimgBox {
+	position: relative;
+	height: 50px;
+	width: 50px;
+	float: left;
+	border-radius: 50%;
+}
+
+.WeiboPersonal {
+	position: relative;
+	text-align: left;
+	left: 5px;
+	float: left;
+	padding-right: 55px;
+}
+
+.textbox {
+	height: 50%;
+	position: relative;
+	margin-top: 3.8em;
+	height: auto;
+	text-align: left;
+	width: 80%;
+	word-wrap: break-word;
+	left: 55px;
+}
+
+.userName:link {
+	text-align: left;
+	color: #333333;
+	font-weight: 600;
+	font-size: 120%;
+	text-decoration: none;
+}
+
+.userName:visited {
+	text-decoration: none;
+	color: #333333;
+}
+
+.userName:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.detele_l {
+	position: absolute;
+	left: 90%;
+}
+
+.detele_Font {
+	color: #BBBBBB;
+}
+
+.detele_Font:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.imgWholeBox {
+	text-align: left;
+	width: auto;
+	margin-left: 55px;
+	max-width: 500px;
+}
+
+.imgWholeBox1 {
+	text-align: left;
+	width: auto;
+	margin-left: 55px;
+	max-width: 400px;
+}
+
+.imgWeiboBoxPicsTop {
+	height: 100px;
+	width: 100px;
+	margin-top: 5px;
+}
+
+.bottomWeibo {
+	margin-left: -30px;
+	background: rgb(247, 247, 247);
+	width: 635px;
+	height: 21px;
+	margin-top: 10px;
+	border-top: #E3E3E3 solid 0.5px;
+}
+
+.bottomWeibo1 {
+	width: 158.75px;
+	border-right: #E3E3E3 solid 2px;
+	float: left;
+}
+
+.bottomWeiboNum {
+	margin-left: 4px;
+	color: #707070;
+	display: inline-block;
+	position: relative;
+	top: 1px;
+}
+
+.aStyle {
+	text-decoration: none;
+}
+
+.aStyle:hover {
+	text-decoration: none;
+}
+
+.bottomWeibo2 {
+	width: 158.75px;
+	border-right: #E3E3E3 solid 2px;
+	float: left;
+}
+
+.bottomWeibo3 {
+	width: 158.75px;
+	border-right: #E3E3E3 solid 2px;
+	float: left;
+}
+
+.bottomWeibo4 {
+	width: 158.75px;
+	float: left;
+}
+
+.rightPart1 {
+	position: relative;
+	float: left;
+	width: 298px;
+	height: 30px;
+	background-color: white;
+}
+
+.rightPart2 {
+	width: 298px;
+	height: 200px;
+	float: left;
+	background-color: white;
+	border-left: #E3E3E3 solid 2px;
+	border-bottom-right-radius: 5px;
+}
+
+.serchingHistory {
+	text-align: left;
+}
+
+.clearSerchingHis {
+	list-style-type: none;
+}
+
+#loadall {
+	background-color: white;
+	text-align: center;
+	font-size: 16px;
+	color: #9E9E9E;
+	height: 50px;
+	line-height: 50px;
+}
+
+.hideBackgroud {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background: rgba(131, 139, 131, 0.65);
+	display: none;
+}
+
+.forwardTickCloseTick {
+	position: relative;
+	left: 80%;
+}
+
+.commentReplyPart {
+	position: fixed;
+	width: 480px;
+	height: 190px;
+	left: 30%;
+	top: 30%;
+	background-color: white;
+	z-index: 101;
+	display: none;
+	border: gray solid 2px;
+	border-radius: 10%;
+}
+
+.commentPartTextArea {
+	width: 90%;
+	height: 70px;
+	position: relative;
+	left: 5%;
+	top: -1em;
+}
+
+.ShowBigImgPart {
+	position: fixed;
+	display: none;
+	z-index: 101;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.forwardTickCloseTick1 {
+	margin-left: 45%;
+}
+
+.ShowBigImg {
+	max-width: 450px;
+	max-height: 350px;
+	margin-top: 13%;
+}
+
+.atPeople {
+	color: #FF6347;
+	cursor: pointer;
+}
